@@ -28,7 +28,9 @@ class Segment implements Figure {
         for (int i = 0; i <2; i++) {
             R2Point R1 = p;
             R2Point R2 = q;
-            Shape l = new Line2D.Double(R1.x,R1.y,R2.x,R2.y);
+           // g.fillOval((int)R1.x, (int)-R1.y, 5,5);
+           // g.fillOval((int)R1.x, (int)-R2.y, 5,5);
+            Shape l = new Line2D.Double(R1.x,-R1.y,R2.x,-R2.y);
             g2.draw(l);
 
         }

@@ -24,6 +24,9 @@ public class MyWindow extends JFrame {
         g.translate(Width/2,Height/2);
         g.drawLine(-Width/2, 0 ,Width/2, 0);
         g.drawLine(0,-Height/2,0,Height/2);
+
+        g.drawLine(10, -10 ,10, -0);
+        g.drawLine(10, -10 ,0, -10);
        // g.translate(-getWidth()/2,-getHeight()/2);
         f.draw(g);
     }
