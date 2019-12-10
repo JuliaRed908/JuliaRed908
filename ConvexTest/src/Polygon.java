@@ -63,15 +63,15 @@ class Polygon extends Deq implements Figure {
 
         int[] MyArray1 =new int[array.length];
         int[] MyArray2 =new int[array.length];
-        for(int i=0; i<array.length;i++){
+        for(int i=1; i<array.length;i++){
 
             MyArray1[i]=(int)back().x;
 
             MyArray2[i]=-(int)back().y;
 
-            g.setColor(Color.RED);
-            g.fillPolygon(MyArray1, MyArray2, array.length);
-            g.setColor(Color.BLACK);
+           //g.setColor(Color.RED);
+           // g.fillPolygon(MyArray1, MyArray2, array.length);
+            //g.setColor(Color.BLACK);
             g.drawLine((int)front().x, -(int)front().y, (int)back().x, -(int)back().y);
             g.fillOval((int)front().x -2, -(int)front().y-2, 5,5);
             pushBack(popFront());

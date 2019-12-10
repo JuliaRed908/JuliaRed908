@@ -21,6 +21,7 @@ class Convex {
     }
     public void draw(Graphics g) {
          fig.draw(g);
+
     }
 
 
