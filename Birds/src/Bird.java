@@ -19,10 +19,10 @@ public class Bird {
     protected Calendar cal1 = new GregorianCalendar();
     protected Date date = new Date();
     SimpleDateFormat format1;
-    public int height =  ;
-    public int width = JFrame.WIDTH;
-    protected int y =  (int)(Math.random()*(height-height/100*10));
-    protected int x = (int)(Math.random()*(width-width/100*10));
+    private int width = MyWindow.Width;
+    private int height = MyWindow.Height;
+    protected int y =  (int)(Math.random()*(height-height/10));
+    protected int x = (int)(Math.random()*(width-width/10));
     public int size = 50;
     public Color color = Color.BLUE;
 

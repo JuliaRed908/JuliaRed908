@@ -5,8 +5,10 @@ import java.util.ArrayList;
 
 public class Main {
 
+
     public static void main(String[] args)
     {
+
 //        Bird a = new Bird();
 //        Macaw b = new Macaw();
 //        Macaw c = new Macaw("Конфетка");

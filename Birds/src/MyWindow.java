@@ -2,8 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 public class MyWindow extends JFrame {
     private Group f;
-    public int Width=700;
-    public int Height=700;
+    public static int Width=700;
+    public static int Height=700;
     public MyWindow()
     {
 
